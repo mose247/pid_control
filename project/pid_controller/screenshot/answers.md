@@ -1,9 +1,9 @@
 ### Add the plots to your report and explain them (describe what you see)  
 Hereafter are shown the plots of the steering error and the corresponding control output. The error becomes quite large in correspondance of lane direction changes, sign that the PID isn't perfectly tuned. 
-![](./screenshots/steering_err.png)  
+![](steering_err.png)  
 
 The following plot shows the throttle error and the corresponding control output. Also in this case the controller should be further tuned to improve the results.
-![](./screenshots/throttle_err.png) 
+![](throttle_err.png) 
 
 ### What is the effect of the PID according to the plots, how each part of the PID affects the control command? 
 PID controllers generate a control signal that is proportional to three quantities: the error commited (proportional term), its derivative (derivative term) and its integral (integral term). Each part has its specific function:
