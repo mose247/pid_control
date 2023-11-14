@@ -64,22 +64,6 @@ spiral_base.h
 structs.h
 /home/ubuntu/pid_control/project/pid_controller/structs.h
 
-/home/ubuntu/pid_control/project/pid_controller/integral.cpp
-integral.h
-/home/ubuntu/pid_control/project/pid_controller/integral.h
-array
--
-glog/logging.h
--
-gtest/gtest.h
--
-
-/home/ubuntu/pid_control/project/pid_controller/integral.h
-functional
--
-vector
--
-
 /home/ubuntu/pid_control/project/pid_controller/json.hpp
 algorithm
 -
@@ -222,10 +206,6 @@ cmath
 time.h
 -
 
-/home/ubuntu/pid_control/project/pid_controller/motion_planner.cpp
-motion_planner.h
-/home/ubuntu/pid_control/project/pid_controller/motion_planner.h
-
 /home/ubuntu/pid_control/project/pid_controller/motion_planner.h
 math.h
 -
@@ -268,14 +248,6 @@ vector
 structs.h
 /home/ubuntu/pid_control/project/pid_controller/structs.h
 
-/home/ubuntu/pid_control/project/pid_controller/spiral_equations.cpp
-spiral_equations.h
-/home/ubuntu/pid_control/project/pid_controller/spiral_equations.h
-
-/home/ubuntu/pid_control/project/pid_controller/spiral_equations.h
-array
--
-
 /home/ubuntu/pid_control/project/pid_controller/structs.h
 vector
 -
@@ -283,12 +255,6 @@ carla/geom/Location.h
 /home/ubuntu/pid_control/project/pid_controller/carla/geom/Location.h
 carla/geom/Rotation.h
 /home/ubuntu/pid_control/project/pid_controller/carla/geom/Rotation.h
-
-/home/ubuntu/pid_control/project/pid_controller/utils.cpp
-utils.h
-/home/ubuntu/pid_control/project/pid_controller/utils.h
-cmath
--
 
 /home/ubuntu/pid_control/project/pid_controller/utils.h
 random
@@ -299,18 +265,6 @@ carla/client/Client.h
 -
 structs.h
 /home/ubuntu/pid_control/project/pid_controller/structs.h
-
-/home/ubuntu/pid_control/project/pid_controller/velocity_profile_generator.cpp
-velocity_profile_generator.h
-/home/ubuntu/pid_control/project/pid_controller/velocity_profile_generator.h
-cfloat
--
-cmath
--
-cstdlib
--
-thread
--
 
 /home/ubuntu/pid_control/project/pid_controller/velocity_profile_generator.h
 vector
