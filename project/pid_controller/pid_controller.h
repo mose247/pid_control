@@ -9,26 +9,22 @@
 
 class PID {
 public:
+    // Errors
+    double err;     // proportional
+    double err_d;   // derivative
+    double err_i;   // integral
 
-   /**
-   * TODO: Create the PID class
-   **/
+    // Coefficients
+    double kp;
+    double kd;
+    double ki;
 
-    /*
-    * Errors
-    */
+    // Control signal limits
+    double min_output;
+    double max_output;
 
-    /*
-    * Coefficients
-    */
-
-    /*
-    * Output limits
-    */
-  
-    /*
-    * Delta time
-    */
+    // Delta time
+    double dt;
 
     /*
     * Constructor
